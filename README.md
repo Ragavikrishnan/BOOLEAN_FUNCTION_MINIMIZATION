@@ -34,9 +34,9 @@ Hardware – PCs, Cyclone II , USB flasher
 **Program:**
 
 /*
-module booleanfunction_top(a,b,c,d,w,x,y,z,f1,f2);
-input a,b,c,d,w,x,y,z;
-output f1,f2;
+module booleanfunction_top(a,b,c,d,w,x,y,z,f1,f2);\
+input a,b,c,d,w,x,y,z;\
+output f1,f2;\
 wire adash,bdash,cdash,ddash,ydash,p,q,r,s,t,u;
 not(adash,a);
 not(bdash,b);
